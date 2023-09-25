@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;0,900;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "landroverweb_bold";
+	src: url("../fonts/landroverweb_bold.eot");
+	src: local("☺"), url("../fonts/landroverweb_bold.woff") format("woff"), url("../fonts/landroverweb_bold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "FrozenCrystal";
+	src: url("../fonts/FrozenCrystal.eot");
+	src: local("☺"), url("../fonts/FrozenCrystal.woff") format("woff"), url("../fonts/FrozenCrystal.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Обнуление страницы ===================================================================================== */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea {
+	font-size: inherit;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+
+a {
+	color: inherit;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Color Theme Swatches in Hex */
+.semi-truck-on-road-1-hex {
+	color: #081E26;
+}
+
+.semi-truck-on-road-2-hex {
+	color: #152618;
+}
+
+.semi-truck-on-road-3-hex {
+	color: #A1A6A1;
+}
+
+.semi-truck-on-road-4-hex {
+	color: #535923;
+}
+
+.semi-truck-on-road-5-hex {
+	color: #F2D129;
+}
+
+
+html,
+body {
+	height: 100%;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #fff;
+	background: url('../img/rm373batch15-bg-11.jpg') 0 0/cover no-repeat fixed;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	font-family: 'Roboto';
+}
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	background: #152618;
+}
+
+.header__container {
+	margin: 0 auto;
+	max-width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 0px 0px 30px;
+	min-height: 80px;
+}
+
+.header__logo {
+	/* background: url('/img/logo.png') 0 0/contain no-repeat local; */
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+	z-index: 5;
+}
+
+.header__menu {}
+
+.menu {}
+
+.menu__icon {}
+
+.menu__body {}
+
+.menu__list {}
+
+.menu__list li {
+	position: relative;
+	margin: 0px 10px 0px 10px;
+}
+
+.menu__link {
+	font-size: 1.1rem;
+}
+
+.menu__link:hover,
+.menu__sub-link:hover {
+	text-decoration: underline;
+}
+
+.menu__sublist {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	background-color: #BF7C63;
+	padding: 10px;
+	min-width: 140px;
+}
+
+.menu__sublist li {
+	margin: 10px;
+}
+
+.menu__sublist li:last-child {
+	margin: 0px 10px;
+}
+
+.menu__arrow {
+	display: none;
+}
+
+.menu__sub-link {}
+
+.page {
+	flex: 1 1 auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+.page {
+	padding: 90px 0px 30px 0px;
+}
+
+.page__section {
+	margin: 0 auto;
+	padding: 30px;
+	max-width: 1200px;
+}
+
+.page__title {
+	font-family: 'Roboto';
+	font-size: 3rem;
+	margin: 0px 0px 20px 0px;
+	text-align: center;
+}
+
+.page__text {
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.page__section_2 {}
+
+.page__sub-title {
+	font-family: 'landroverweb_bold';
+	font-size: 2rem;
+	margin: 0px 0px 20px 0px;
+
+	text-align: center;
+}
+
+.page {}
+
+.page__section {}
+
+.page__section_1 {}
+
+.page__title {}
+
+.page__text {}
+
+.page__sub-title {}
+
+.page__section_2 {}
+
+.page__section_3 {}
+
+.cards__block {
+	background: #000000c4;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.driver__card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+.card__body {
+	width: 300px;
+	margin: 5px;
+	flex: 1 1 33.333%;
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+
+.card__fullname {
+	font-size: 1.2rem;
+	text-align: center;
+	padding: 10px;
+}
+
+.card__counter {}
+
+._counter {
+	display: flex;
+
+}
+
+.counter__text {
+	padding: 0 10px;
+	text-align: center;
+	margin: auto;
+
+}
+
+.counter__timer {
+	vertical-align: bottom;
+	font-size: 3rem;
+	font-weight: 500;
+	font-family: "Roboto";
+	color: #F2D129;
+	padding: 10px;
+}
+
+.counter__timer p {
+	vertical-align: bottom;
+
+
+}
+
+
+.footer {
+	background: #081e26b6;
+}
+
+.footer__text {
+	text-align: center;
+	padding: 30px;
+}
+
+body._pc .menu__list>li:hover .menu__sublist {
+	opacity: 1;
+	visibility: visible;
+	transform: translate(0, 0);
+	pointer-events: all;
+}
+
+body._touch .menu__arrow {
+	display: block;
+	width: 0;
+	height: 0;
+	transition: transform 0.3s ease 0s;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 12px solid #fff;
+	margin: 0px 0px 0px 5px;
+}
+
+body._touch .menu__list>li {
+	display: flex;
+	align-items: center;
+}
+
+body._touch .menu__link {
+	flex: 1 1 auto;
+}
+
+@media (max-width: 1280px) {}
+
+@media (max-width: 1024px) {
+	.blanks__title-header p {
+		padding: 0px 0px 0px 50%;
+	}
+}
+
+@media (min-width: 767px) {
+	/* .blanks__title-header p {
+		padding: 0;
+		text-align: right;
+	} */
+
+	.menu__list {
+		display: flex;
+		align-items: center;
+	}
+
+	.menu__list li {
+		padding: 10px 0;
+	}
+
+	.menu__sublist {
+		transform: translate(0px 10%);
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.3s ease 0s;
+		pointer-events: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.day {
+		font-size: 1rem;
+	}
+
+	.holidays__column {
+		margin: 5px 0;
+	}
+}
