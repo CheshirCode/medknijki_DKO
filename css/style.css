@@ -118,6 +118,31 @@ h6 {
 	color: #F2D129;
 }
 
+/* Color Theme Swatches in Hex */
+.Цветная-глина-на-черном-фоне-1-hex {
+	color: #D90416;
+}
+
+.Цветная-глина-на-черном-фоне-2-hex {
+	color: #F23D4C;
+}
+
+.Цветная-глина-на-черном-фоне-3-hex {
+	color: #038C5A;
+}
+
+.Цветная-глина-на-черном-фоне-4-hex {
+	color: #D98E04;
+}
+
+.Цветная-глина-на-черном-фоне-5-hex {
+	color: #0D0D0D;
+}
+
+
+
+
+
 
 html,
 body {
@@ -272,11 +297,12 @@ body {
 .page__section_3 {}
 
 .cards__block {
-	background: #000000c4;
+	background: #081e26d8;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
+	border-radius: 10px;
 }
 
 .driver__card {
@@ -290,10 +316,29 @@ body {
 
 .card__body {
 	width: 300px;
-	margin: 5px;
+	margin: 15px;
 	flex: 1 1 33.333%;
 	border: 1px solid #fff;
 	border-radius: 10px;
+	background: #152618;
+}
+
+._timestop {
+	background: #D90416;
+}
+
+._lasttime {
+	background: #D98E04;
+}
+
+@media (max-width:450px) {
+	card__body {
+		margin: 0px;
+	}
+
+	.page__section {
+		padding: 0;
+	}
 }
 
 .card__fullname {
@@ -327,9 +372,18 @@ body {
 
 .counter__timer p {
 	vertical-align: bottom;
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 .footer {
